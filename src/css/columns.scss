@@ -1,0 +1,26 @@
+.column{
+    display: inline-block;
+    margin: 2px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    max-width: 30px;
+    &:hover{
+        border: 2px red solid;
+        background-color: transparent!important;
+    }
+}
+.columns-container{
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 50vh;
+    // background-color: black;
+}
+
+.current-column{
+    border: 2px dashed red;
+}
+.current-min{
+    border: 2px dashed green;
+}
